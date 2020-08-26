@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable
+            name="contactViewModel"
+            type="Klawit.example.newfirstapp.NameContactViewModel" />
     </data>
 
     <FrameLayout
