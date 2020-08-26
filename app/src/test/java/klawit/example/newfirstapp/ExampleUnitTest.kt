@@ -1,4 +1,4 @@
-package Klawit.example.newfirstapp
+package klawit.example.newfirstapp
 
 import org.junit.Test
 

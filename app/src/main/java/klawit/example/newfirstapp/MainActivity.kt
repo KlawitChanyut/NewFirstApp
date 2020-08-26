@@ -1,6 +1,6 @@
-package Klawit.example.newfirstapp
+package klawit.example.newfirstapp
 
-import Klawit.example.newfirstapp.databinding.ActivityMainBinding
+import klawit.example.newfirstapp.databinding.ActivityMainBinding
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil

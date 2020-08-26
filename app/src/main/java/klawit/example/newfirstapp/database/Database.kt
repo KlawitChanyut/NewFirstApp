@@ -1,4 +1,4 @@
-package Klawit.example.newfirstapp.database
+package klawit.example.newfirstapp.database
 
 import android.content.Context
 import androidx.room.Database
@@ -10,14 +10,14 @@ abstract class Database : RoomDatabase(){
     abstract val databaseDao: DatabaseDAO
     companion object{
         @Volatile
-        private var INSTANCE: Klawit.example.newfirstapp.database.Database? = null
-        fun getInstance(context: Context): Klawit.example.newfirstapp.database.Database {
+        private var INSTANCE: klawit.example.newfirstapp.database.Database? = null
+        fun getInstance(context: Context): klawit.example.newfirstapp.database.Database {
             synchronized(this) {
                 var instance = INSTANCE
                 if (instance == null) {
                     instance = Room.databaseBuilder(
                         context.applicationContext,
-                        Klawit.example.newfirstapp.database.Database::class.java,
+                        klawit.example.newfirstapp.database.Database::class.java,
                         "database"
                     )
                         .fallbackToDestructiveMigration()

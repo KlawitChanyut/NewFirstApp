@@ -6,7 +6,7 @@
     app:startDestination="@id/aboutMeFragment">
     <fragment
         android:id="@+id/aboutMeFragment"
-        android:name="Klawit.example.newfirstapp.AboutMeFragment"
+        android:name="klawit.example.newfirstapp.AboutMeFragment"
         android:label="fragment_about_me"
         tools:layout="@layout/fragment_about_me" >
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/contactFragment"
-        android:name="Klawit.example.newfirstapp.ContactFragment"
+        android:name="klawit.example.newfirstapp.ContactFragment"
         android:label="fragment_contact"
         tools:layout="@layout/fragment_contact" >
         <action

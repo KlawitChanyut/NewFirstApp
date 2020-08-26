@@ -1,4 +1,4 @@
-package Klawit.example.newfirstapp.database
+package klawit.example.newfirstapp.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

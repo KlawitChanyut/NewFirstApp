@@ -1,7 +1,7 @@
-package Klawit.example.newfirstapp
+package klawit.example.newfirstapp
 
-import Klawit.example.newfirstapp.database.DatabaseDAO
-import Klawit.example.newfirstapp.databinding.FragmentContactBinding
+import klawit.example.newfirstapp.database.DatabaseDAO
+import klawit.example.newfirstapp.databinding.FragmentContactBinding
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
