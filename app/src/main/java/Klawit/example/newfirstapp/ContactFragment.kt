@@ -46,4 +46,3 @@ class ContactFragment : Fragment() {
         ) || super.onOptionsItemSelected(item)
     }
 }
-}
